@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /drafts/
+
+Sitemap: https://teamdanilvikapolina.github.io/sitemap.xml
