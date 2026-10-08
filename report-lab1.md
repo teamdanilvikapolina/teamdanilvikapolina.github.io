@@ -38,7 +38,7 @@
 
 ## Скриншоты проверок
 
-*(заполняется после публикации, сохраняются в `drafts/`)*
+*(заполняются после проверок в Вебмастере и Search Console, сохраняются в `drafts/`)*
 
 - [ ] Анализ `robots.txt` в Яндекс Вебмастере — без ошибок
 - [ ] Анализ `sitemap.xml` в Яндекс Вебмастере — без ошибок, 2 URL
@@ -46,7 +46,22 @@
 - [ ] Подтверждение прав мета-тегом в Яндекс Вебмастере
 - [ ] Подтверждение прав HTML-тегом в Google Search Console
 - [ ] Статус отправленного `sitemap.xml` в обоих сервисах
-- [ ] Ответ IndexNow `200`/`202` на вкладке Network
+- [x] Ответ IndexNow `200`/`202` — получен **202** `{"success":true}` 2026-10-08
+  (запрос: `https://yandex.com/indexnow?url=…/chto-takoe-kvazibuplon.html&key=362026b6893d0e6cabbc73aa4efd0014`,
+  аналогично для главной страницы)
+
+## Результаты авто-проверки 2026-10-08
+
+Проверено прямым запросом к опубликованному сайту:
+
+| URL | Код ответа |
+|-----|-----------|
+| `https://teamdanilvikapolina.github.io/` | 200 |
+| `https://teamdanilvikapolina.github.io/chto-takoe-kvazibuplon.html` | 200 (без редиректа) |
+| `https://teamdanilvikapolina.github.io/robots.txt` | 200 |
+| `https://teamdanilvikapolina.github.io/sitemap.xml` | 200 |
+| `https://teamdanilvikapolina.github.io/362026b6893d0e6cabbc73aa4efd0014.txt` | 200 |
+| IndexNow (обе страницы) | 202 `{"success":true}` |
 
 ## Журнал экспериментов
 
@@ -59,6 +74,7 @@
 - [x] Главная и страница о квазибуплоне опубликованы
 - [x] `robots.txt` и `sitemap.xml` на месте, sitemap указан в `robots.txt`
 - [x] Ключ IndexNow опубликован
+- [x] Уведомление IndexNow отправлено — 202 (обе страницы)
 - [x] Журнал экспериментов с первой записью
 - [ ] Скриншоты Вебмастера и Search Console
 - [ ] Скриншот ответа IndexNow
