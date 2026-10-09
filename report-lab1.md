@@ -28,8 +28,8 @@
 | Пункт | index.html | chto-takoe-kvazibuplon.html |
 |-------|-----------|------------------------------|
 | `<html lang="ru">` | да | да |
-| `title` уникален, ≤ 60–70 символов | 63 символа | 44 символа |
-| `meta description` описывает страницу | 143 символа | 137 символов |
+| `title` уникален, ≤ 60–70 символов | 59 символов | 44 символа |
+| `meta description` описывает страницу | 145 символов | 137 символов |
 | Ровно один `h1` | да | да |
 | `canonical` = адрес этой страницы | `https://teamdanilvikapolina.github.io/` | `https://teamdanilvikapolina.github.io/chto-takoe-kvazibuplon.html` |
 | Текст виден в исходном коде без JavaScript | да (без JS) | да (без JS) |
