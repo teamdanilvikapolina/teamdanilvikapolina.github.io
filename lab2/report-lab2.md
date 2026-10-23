@@ -171,10 +171,11 @@ accuracy 0,97
 
 Список сайтов соперников нам пока недоступен (не выложен преподавателем) — как только появится, дополним карту: откроем их `sitemap.xml`, сопоставим закрытые ими интенты с нашей таблицей выше. По нашей карте самый «дешёвый» незанятый кластер — 4/9/11 «применение», который мы и закрываем этой неделей.
 
-## Что осталось сделать руками (чек-лист публикации)
+## Публикация (выполнено 2026-10-24)
 
-- [ ] Залить в репозиторий: `kak-povysit-kvazibuplon.html`, обновлённый `sitemap.xml`, обновлённый `journal.md`, папку `lab2/` (ноутбук, отчёт, данные)
-- [ ] Проверить, что страница отдаёт 200: `https://teamdanilvikapolina.github.io/kak-povysit-kvazibuplon.html`
-- [ ] Разметка в [Schema Markup Validator](https://validator.schema.org/) — DefinedTerm и FAQPage без ошибок
-- [ ] Отправить IndexNow: `https://yandex.com/indexnow?url=https%3A%2F%2Fteamdanilvikapolina.github.io%2Fkak-povysit-kvazibuplon.html&key=362026b6893d0e6cabbc73aa4efd0014` (ключ уже опубликован в корне сайта) — скриншот в `drafts/`
-- [ ] Яндекс Вебмастер → Индексирование → Переобход страниц → добавить адрес страницы — скриншот в `drafts/`
+- [x] Залито в репозиторий: `kak-povysit-kvazibuplon.html`, обновлённые `sitemap.xml` и `journal.md`, папка `lab2/` — 13 файлов отправлены через GitHub Contents API
+- [x] Страница отдаёт **200**: https://teamdanilvikapolina.github.io/kak-povysit-kvazibuplon.html (проверено после сборки Pages: title, canonical, JSON-LD на месте)
+- [x] Страница добавлена в живой `sitemap.xml` (3 URL)
+- [x] Разметка DefinedTerm + FAQPage структурно валидна (JSON-LD разобран, обязательные поля на месте); скриншот Schema Markup Validator — `drafts/` после ручного прогона: https://validator.schema.org/#url=https%3A%2F%2Fteamdanilvikapolina.github.io%2Fkak-povysit-kvazibuplon.html
+- [x] IndexNow: ответ **202 `{"success":true}`** — сохранён в `drafts/indexnow-2026-10-24.txt`
+- [ ] Яндекс Вебмастер → Индексирование → Переобход страниц → добавить адрес страницы — скриншот в `drafts/` (осталось для сдачи)
